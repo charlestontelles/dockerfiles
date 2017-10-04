@@ -2,7 +2,7 @@
 # WSO2 API Manager
 #
 FROM openjdk:8
-MAINTAINER Charleston Telles, charleston.telles@tattsgroup.com
+MAINTAINER Charleston Telles, 
 
 ENV VERSION 2.1.0
 
