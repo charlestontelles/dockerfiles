@@ -14,7 +14,7 @@ apt-get update && \
     rm /opt/wso2am-${VERSION}.zip && \
     mv /opt/wso2am-${VERSION} /opt/wso2am
 
-VOLUME ["/opt/wso2am/repository"]
+VOLUME ["/opt/wso2am/repo"]
 
 EXPOSE 9443 9763 8243 8280 10397 7711
 ENTRYPOINT ["/opt/wso2am/bin/wso2server.sh"]
